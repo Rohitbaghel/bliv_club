@@ -1,4 +1,4 @@
-import { throttledApiCall } from "../components/APIwrapper";
+import { throttledApiCall } from "../utils/APIwrapper";
 
 export const fetchCoinData = (params) => {
   return (dispatch) => {

@@ -22,13 +22,11 @@ function Coin({ coinData, error, fetchCoinData }) {
   }
 
   return (
-    <div className="flex flex-col">
-      <div className=" w-full">
-        <p className="heading">
-          Crypto Coin Data
-        </p>
+    <div className="">
+      <div className=" w-full ">
+        <p className="heading">Crypto Coin Data</p>
       </div>
-      <div className="flex ">
+      <div className="flex  w-full overflow-x-scroll">
         {coinData.map((coin) => (
           <>
             <CoinInfo coin={coin} />

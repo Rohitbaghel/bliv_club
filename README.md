@@ -19,31 +19,30 @@ React Router DOM
 Folder Structure
 The folder structure for this project is as follows:
 
-
-Copy code
 ├── README.md
 ├── package.json
 ├── public
-│   ├── index.html
-│   └── ...
+│ ├── index.html
+│ └── ...
 └── src
-    ├── actions
-    │   └── index.js
-    ├── components
-    │   ├── Coin.js
-    │   ├── CoinList.js
-    │   ├── Error.js
-    │   └── Loading.js
-    ├── reducers
-    │   └── index.js
-    ├── styles
-    │   ├── index.css
-    │   
-    ├── utils
-    │   ├── APIwrapper.js 
-    ├── App.js
-    ├── index.js
-    └── store.js
+├── actions
+│ └── index.js
+├── components
+│ ├── Coin.js
+│ ├── CoinList.js
+│ ├── Error.js
+│ └── Loading.js
+├── reducers
+│ └── index.js
+├── styles
+│ ├── index.css
+│  
+├── utils
+│ ├── APIwrapper.js
+├── App.js
+├── index.js
+└── store.js
+
 The actions folder contains Redux actions to be dispatched to the store.
 The components folder contains React components to be rendered on the UI.
 The reducers folder contains Redux reducers to update the store state.
